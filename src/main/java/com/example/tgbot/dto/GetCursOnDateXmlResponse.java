@@ -16,11 +16,4 @@ public class GetCursOnDateXmlResponse {
     @XmlElement(name = "GetCursOnDateXMLResult", namespace = "http://web.cbr.ru/") //Имя xml элемента и его пространство имен
     private GetCursOnDateXmlResult getCursOnDateXmlResult;
 
-    public void setGetCursOnDateXmlResult(GetCursOnDateXmlResult getCursOnDateXmlResult) {
-        this.getCursOnDateXmlResult = getCursOnDateXmlResult;
-    }
-
-    public GetCursOnDateXmlResult getGetCursOnDateXmlResult() {
-        return getCursOnDateXmlResult;
-    }
 }

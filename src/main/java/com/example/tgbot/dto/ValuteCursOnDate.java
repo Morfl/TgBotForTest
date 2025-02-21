@@ -26,43 +26,4 @@ public class ValuteCursOnDate {
     @XmlElement(name = "VchCode") //Название XML тэга
     private String chCode;
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setChCode(String chCode) {
-        this.chCode = chCode;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
-
-    public void setCourse(double course) {
-        this.course = course;
-    }
-
-    public void setNominal(int nominal) {
-        this.nominal = nominal;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getNominal() {
-        return nominal;
-    }
-
-    public double getCourse() {
-        return course;
-    }
-
-    public String getCode() {
-        return code;
-    }
-
-    public String getChCode() {
-        return chCode;
-    }
 }
