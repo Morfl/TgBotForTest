@@ -3,16 +3,15 @@ package com.example.tgbot.config;
 
 import com.example.tgbot.Service.CentralRussianBankService;
 import com.example.tgbot.dto.*;
-import javax.xml.soap.MessageFactory;
-import javax.xml.soap.SOAPConstants;
-import javax.xml.soap.SOAPException;
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.ws.soap.saaj.SaajSoapMessageFactory;
 
+import javax.xml.soap.MessageFactory;
+import javax.xml.soap.SOAPConstants;
+import javax.xml.soap.SOAPException;
 import java.nio.charset.StandardCharsets;
 
 @Configuration

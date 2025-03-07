@@ -1,6 +1,8 @@
 package com.example.tgbot.entity;
 
+
 import lombok.Data;
+
 
 import javax.persistence.*;
 import java.math.BigDecimal;

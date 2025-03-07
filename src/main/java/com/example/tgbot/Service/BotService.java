@@ -87,6 +87,7 @@ public class BotService extends TelegramLongPollingBot {
         }
     }
 
+
     //Данный метод будет вызван сразу после того, как данный бин будет создан - это обеспечено аннотацией Spring PostConstruct
     @PostConstruct
     public void start() {
